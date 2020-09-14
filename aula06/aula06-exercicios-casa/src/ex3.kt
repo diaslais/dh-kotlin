@@ -1,9 +1,4 @@
-fun par(numero: Int): Boolean{
-    if(numero % 2 == 0){
-        return true
-    }
-    return false
-}
+fun par(numero: Int) = numero % 2 == 0
 
 fun main() {
     println("Digite um número: ")

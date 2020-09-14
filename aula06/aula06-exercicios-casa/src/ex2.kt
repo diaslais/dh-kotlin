@@ -1,9 +1,4 @@
-fun saoDiferentes(str1: String, str2: String): Boolean{
-    if(str1 != str2){
-        return true
-    }
-    return false
-}
+fun saoDiferentes(str1: String, str2: String) = !str1.equals(str2)
 
 fun main(){
     println("Digite duas strings: ")

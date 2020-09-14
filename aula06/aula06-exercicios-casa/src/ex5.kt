@@ -1,9 +1,4 @@
-fun comparaNumeros(numA: Int, numB: Int, numC: Int, numD: Int): Boolean{
-    if((numA > numC && numA > numD) || (numB > numC && numB > numD)){
-        return true
-    }
-    return false
-}
+fun comparaNumeros(numA: Int, numB: Int, numC: Int, numD: Int) = ((numA > numC && numA > numD) || (numB > numC && numB > numD))
 
 fun main() {
     println("Digite 4 números: ")

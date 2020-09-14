@@ -1,8 +1,5 @@
 fun main() {
-    var positivos = arrayListOf<Int>()
-    for(i in 0..99){
-        positivos.add(i)
+    for (i in 0..99) {
+        println(i)
     }
-
-    print(positivos)
 }
