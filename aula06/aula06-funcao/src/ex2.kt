@@ -4,5 +4,5 @@ fun main() {
     print("Digite um número: ")
     var num = readLine()!!.toInt()
 
-    println("Resultado: ${positivoOuNegativo(num)}")
+    println(positivoOuNegativo(num))
 }
