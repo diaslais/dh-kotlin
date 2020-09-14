@@ -1,2 +1,2 @@
-class Cliente (nome: String, sobrenome: String) {
+class Cliente (var nome: String, var sobrenome: String) {
 }

@@ -1,7 +1,4 @@
-class Conta (titular: Cliente){
-    var numeroConta: Int = 0
-    var saldo: Double = 0.0
-
+class Conta (var titular: Cliente, var numeroConta: Int, var saldo: Double){
 
     fun deposito(valor: Double){
         this.saldo += valor
@@ -9,7 +6,7 @@ class Conta (titular: Cliente){
     }
 
     fun saque(valor: Double){
-        if (valor > saldo){
+        if (valor > this.saldo){
             println("Saldo insuficiente")
         } else{
             this.saldo -= valor
