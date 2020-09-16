@@ -4,5 +4,6 @@ class Concessionaria (){
     fun registrarVenda(veiculo: Veiculo, cliente: Cliente, valor: Double){
         var venda = Venda(valor, veiculo, cliente)
         registroDeVenda.add(venda)
+        println("Venda registrada!")
     }
 }
