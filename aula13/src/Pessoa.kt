@@ -1,3 +1,3 @@
-class Pessoa {
-    //teste
+fun main(){
+    println("Hello")
 }
